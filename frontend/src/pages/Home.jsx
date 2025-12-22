@@ -343,19 +343,19 @@ const Home = () => {
             <div className="space-y-8 mb-12">
               <div className="bg-gray-900/50 border-l-4 border-orange-500 rounded-r-2xl p-8 hover:bg-gray-900/70 transition-all duration-300">
                 <p className="text-xl sm:text-2xl text-gray-200 leading-relaxed">
-                  Если ты чувствуешь, что способен на масштаб, но словно привязан невидимыми цепями...
+                  Ты чувствуешь, что способен на масштаб, но словно привязан невидимыми цепями...
                 </p>
               </div>
 
               <div className="bg-gray-900/50 border-l-4 border-orange-500 rounded-r-2xl p-8 hover:bg-gray-900/70 transition-all duration-300">
                 <p className="text-xl sm:text-2xl text-gray-200 leading-relaxed">
-                  Если ты устал выбирать между деньгами и семьей...
+                  Ты устал выбирать между деньгами и семьей...
                 </p>
               </div>
 
               <div className="bg-gray-900/50 border-l-4 border-orange-500 rounded-r-2xl p-8 hover:bg-gray-900/70 transition-all duration-300">
                 <p className="text-xl sm:text-2xl text-gray-200 leading-relaxed">
-                  Если ты смотришь в зеркало и не узнаешь того парня, которым хотел стать в детстве...
+                  Ты смотришь в зеркало и не узнаешь того парня, которым хотел стать в детстве...
                 </p>
               </div>
             </div>
