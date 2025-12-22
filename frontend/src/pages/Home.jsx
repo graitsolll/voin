@@ -178,9 +178,6 @@ const Home = () => {
             <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold uppercase leading-tight">
               ИЗ ЭТОЙ СТАТЬИ ТЫ УЗНАЕШЬ, <span className="text-orange-500">КАК:</span>
             </h2>
-            <p className="text-xl sm:text-2xl text-gray-300 max-w-4xl mx-auto">
-              Ты можешь добиться успеха в бизнесе, но несчастным дома. Или быть альтернативным семейным человеком, но считать копейки.
-            </p>
           </div>
 
           <div className="text-center mb-12">
