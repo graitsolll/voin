@@ -331,6 +331,46 @@ const Home = () => {
         </div>
       </section>
 
+      {/* If You're Nodding Section */}
+      <section className="py-24 bg-gradient-to-b from-black to-gray-950">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-5xl mx-auto">
+            <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-center mb-16 uppercase">
+              ЕСЛИ ТЫ СЕЙЧАС <span className="text-orange-500">КИВАЕШЬ</span>,<br />
+              ЧИТАЯ ЭТО...
+            </h2>
+
+            <div className="space-y-8 mb-12">
+              <div className="bg-gray-900/50 border-l-4 border-orange-500 rounded-r-2xl p-8 hover:bg-gray-900/70 transition-all duration-300">
+                <p className="text-xl sm:text-2xl text-gray-200 leading-relaxed">
+                  Если ты чувствуешь, что способен на масштаб, но словно привязан невидимыми цепями...
+                </p>
+              </div>
+
+              <div className="bg-gray-900/50 border-l-4 border-orange-500 rounded-r-2xl p-8 hover:bg-gray-900/70 transition-all duration-300">
+                <p className="text-xl sm:text-2xl text-gray-200 leading-relaxed">
+                  Если ты устал выбирать между деньгами и семьей...
+                </p>
+              </div>
+
+              <div className="bg-gray-900/50 border-l-4 border-orange-500 rounded-r-2xl p-8 hover:bg-gray-900/70 transition-all duration-300">
+                <p className="text-xl sm:text-2xl text-gray-200 leading-relaxed">
+                  Если ты смотришь в зеркало и не узнаешь того парня, которым хотел стать в детстве...
+                </p>
+              </div>
+            </div>
+
+            <div className="text-center">
+              <div className="inline-block bg-orange-500/20 border-2 border-orange-500 rounded-2xl p-10 max-w-4xl">
+                <p className="text-2xl sm:text-3xl font-bold text-white leading-relaxed">
+                  Этот текст — не случайность. Это твой шанс перестать бежать по кругу.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* What You Get Section */}
       <section className="py-24 bg-gradient-to-b from-black to-gray-950">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
