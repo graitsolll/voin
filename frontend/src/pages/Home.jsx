@@ -620,6 +620,15 @@ const Home = () => {
                 Ты, наверное, заметил: старые методы сломались.
               </p>
 
+              {/* Full Width Image Inside Section */}
+              <div className="w-full -mx-4 sm:-mx-6 lg:-mx-8">
+                <img
+                  src="https://customer-assets.emergentagent.com/job_system-rebuild/artifacts/41fc4chu_d7b7594e-cd78-41b5-acb8-ef9a949541e5.png"
+                  alt="Системный апгрейд"
+                  className="w-full h-auto object-cover"
+                />
+              </div>
+
               <div className="bg-gray-900/50 border border-orange-500/30 rounded-2xl p-8">
                 <p className="text-xl text-gray-300 leading-relaxed mb-6">
                   Раньше можно было просто «пахать» на силе воли. Сегодня мир слишком сложен. Если ты игнорируешь свою психику, если ты не работаешь с Состоянием, ты проиграешь.
