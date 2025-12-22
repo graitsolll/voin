@@ -543,6 +543,165 @@ const Home = () => {
         </div>
       </section>
 
+      {/* Results Explained Section */}
+      <section className="py-24 bg-gradient-to-b from-black to-gray-950">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-5xl mx-auto space-y-12">
+            <div className="text-center space-y-6">
+              <p className="text-2xl sm:text-3xl text-gray-300 leading-relaxed">
+                Это не теория из книжек. Это путь, который прошел я и десятки моих учеников — предпринимателей, управленцев, отцов.
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-8">
+              <div className="bg-red-900/20 border-2 border-red-500/50 rounded-2xl p-8">
+                <h3 className="text-2xl font-bold text-red-400 mb-4">Приходили:</h3>
+                <ul className="space-y-3 text-lg text-gray-300">
+                  <li className="flex items-start">
+                    <span className="text-red-500 mr-3">•</span>
+                    <span>Выгоревшими</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-red-500 mr-3">•</span>
+                    <span>С разрушенными браками</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-red-500 mr-3">•</span>
+                    <span>Со стагнацией в бизнесе</span>
+                  </li>
+                </ul>
+              </div>
+
+              <div className="bg-orange-900/20 border-2 border-orange-500/50 rounded-2xl p-8">
+                <h3 className="text-2xl font-bold text-orange-400 mb-4">А уходили:</h3>
+                <ul className="space-y-3 text-lg text-gray-300">
+                  <li className="flex items-start">
+                    <span className="text-orange-500 mr-3">•</span>
+                    <span>Целостными</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-orange-500 mr-3">•</span>
+                    <span>С блеском в глазах</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-orange-500 mr-3">•</span>
+                    <span>С новыми проектами</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-orange-500 mr-3">•</span>
+                    <span>С глубоким спокойствием внутри</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="text-center">
+              <p className="text-3xl font-bold text-orange-500">
+                Это повторяемый результат.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Why Old Methods Don't Work Section */}
+      <section className="py-24 bg-black">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-5xl mx-auto">
+            <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-center mb-12 uppercase">
+              ПОЧЕМУ «КАК РАНЬШЕ»<br />
+              <span className="text-orange-500">УЖЕ НЕ РАБОТАЕТ?</span>
+            </h2>
+
+            <div className="space-y-8">
+              <p className="text-xl sm:text-2xl text-gray-300 leading-relaxed">
+                Ты, наверное, заметил: старые методы сломались.
+              </p>
+
+              <div className="bg-gray-900/50 border border-orange-500/30 rounded-2xl p-8">
+                <p className="text-xl text-gray-300 leading-relaxed mb-6">
+                  Раньше можно было просто «пахать» на силе воли. Сегодня мир слишком сложен. Если ты игнорируешь свою психику, если ты не работаешь с Состоянием, ты проиграешь.
+                </p>
+                <div className="border-t border-orange-500/30 pt-6">
+                  <p className="text-lg text-red-400 font-bold">
+                    Инфаркты в 40 лет, разводы, потеря бизнеса на нервной почве — это цена за попытку жить по старым чертежам.
+                  </p>
+                </div>
+              </div>
+
+              <div className="text-center">
+                <p className="text-2xl sm:text-3xl font-bold text-orange-500">
+                  Тебе нужен системный апгрейд, а не косметический ремонт.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* All-In-One Method Section */}
+      <section className="py-24 bg-gradient-to-b from-black to-gray-950">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-5xl mx-auto">
+            <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-center mb-12 uppercase">
+              В ЭТОМ МЕТОДЕ ЕСТЬ <span className="text-orange-500">ВСЁ. ТОЧКА.</span>
+            </h2>
+
+            <div className="space-y-8">
+              <p className="text-xl sm:text-2xl text-gray-300 leading-relaxed text-center">
+                Тебе не нужно искать отдельно коуча по бизнесу, отдельно семейного психолога и отдельно тренера по личностному росту.
+              </p>
+
+              <div className="bg-gradient-to-r from-orange-500/10 to-transparent border-l-4 border-orange-500 rounded-r-2xl p-8">
+                <p className="text-2xl font-bold text-white mb-4">
+                  Моя система — это единый механизм.
+                </p>
+                <p className="text-xl text-gray-300 leading-relaxed">
+                  Мы связываем твои деньги с твоими отношениями, твое здоровье с твоими целями. Потому что в жизни всё связано. Нельзя качать бицепс, пока у тебя сердце барахлит. Мы работаем со всей системой сразу.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Why Trust Me Section */}
+      <section className="py-24 bg-black">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-5xl mx-auto">
+            <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-center mb-12 uppercase">
+              ПОЧЕМУ МНЕ МОЖНО<br />
+              <span className="text-orange-500">ДОВЕРЯТЬ?</span>
+            </h2>
+
+            <div className="space-y-8">
+              <div className="text-center">
+                <p className="text-3xl font-bold text-orange-500 mb-6">
+                  Я — Рустам Кадыров.
+                </p>
+              </div>
+
+              <div className="bg-gray-900/50 border-2 border-orange-500/30 rounded-2xl p-8 space-y-6">
+                <p className="text-xl text-gray-300 leading-relaxed">
+                  Я не гуру, который вещает с облака. Я практик. Я эксперт в мужской психологии, который опирается на науку, логику и факты.
+                </p>
+                <div className="border-t border-orange-500/30 pt-6">
+                  <p className="text-xl text-gray-300 leading-relaxed">
+                    Здесь не будет эзотерики, «дыхания маткой» или воды. Только конкретика. Только хардкорная работа над мышлением.
+                  </p>
+                </div>
+              </div>
+
+              <div className="text-center">
+                <p className="text-2xl sm:text-3xl font-bold text-white">
+                  Я уважаю твое время и твой интеллект, поэтому даю только то, что работает.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-24 bg-gradient-to-b from-gray-950 to-black relative overflow-hidden">
         <div className="absolute inset-0 z-0">
