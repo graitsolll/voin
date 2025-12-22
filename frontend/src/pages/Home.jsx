@@ -463,10 +463,12 @@ const Home = () => {
               </p>
             </div>
 
-            <div className="bg-orange-500 rounded-2xl p-8 mb-12 text-center">
-              <h3 className="text-3xl sm:text-4xl font-bold text-white uppercase">
-                БЛОК 1: ФУНДАМЕНТ ЛИЧНОСТИ
-              </h3>
+            <div className="mb-12">
+              <img
+                src="https://customer-assets.emergentagent.com/job_system-rebuild/artifacts/eyv084l2_6cd2f4dd-e4f5-42ae-8397-487399e09e62.png"
+                alt="Фундамент личности"
+                className="w-full rounded-2xl shadow-2xl"
+              />
             </div>
 
             <Accordion type="single" collapsible className="space-y-4">
