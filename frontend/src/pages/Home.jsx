@@ -180,10 +180,6 @@ const Home = () => {
             </h2>
           </div>
 
-          <div className="text-center mb-12">
-            <h3 className="text-3xl sm:text-4xl font-bold text-orange-500 uppercase">Ты узнаешь:</h3>
-          </div>
-
           <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
             <Card className="bg-gradient-to-br from-gray-900 to-gray-950 border-2 border-orange-500/30 rounded-2xl p-8 hover:border-orange-500/60 transition-all duration-300 transform hover:scale-105">
               <div className="flex items-start space-x-6">
