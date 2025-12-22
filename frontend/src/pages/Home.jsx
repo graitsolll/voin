@@ -95,12 +95,12 @@ const Home = () => {
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center pt-20">
         <div className="absolute inset-0 z-0 bg-black">
-          <div className="absolute inset-0 bg-gradient-to-r from-black via-black/80 to-transparent z-10"></div>
-          <div className="absolute right-0 top-0 bottom-0 w-1/2 opacity-60">
+          <div className="absolute inset-0 bg-gradient-to-r from-black via-black/85 to-black/20 z-10"></div>
+          <div className="absolute right-0 top-0 bottom-0 w-2/5 opacity-70">
             <img
               src="https://customer-assets.emergentagent.com/job_system-rebuild/artifacts/exfqlu52_bcaeab5f-914b-4e57-830b-9db64e87e6eb.png"
               alt="Hero"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover object-center"
             />
           </div>
         </div>
