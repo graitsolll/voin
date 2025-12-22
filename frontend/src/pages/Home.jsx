@@ -257,7 +257,7 @@ const Home = () => {
               <div className="relative">
                 <div className="absolute -inset-4 bg-gradient-to-r from-orange-500/20 to-transparent rounded-2xl blur-xl"></div>
                 <img
-                  src="https://customer-assets.emergentagent.com/job_15f1dff2-2edb-4e36-86c1-a075e381612e/artifacts/pdv6nmx3_6cd2f4dd-e4f5-42ae-8397-487399e09e62.png"
+                  src="https://customer-assets.emergentagent.com/job_system-rebuild/artifacts/dnuv0fnc_%D0%A0%D1%83%D1%81%D1%82%D0%B0%D0%BC%202.jpg"
                   alt="Рустам Кадыров"
                   className="relative rounded-2xl shadow-2xl"
                 />
