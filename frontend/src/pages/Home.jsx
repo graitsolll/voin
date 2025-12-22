@@ -650,15 +650,6 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Full Width Image After Old Methods */}
-      <section className="w-full">
-        <img
-          src="https://customer-assets.emergentagent.com/job_system-rebuild/artifacts/41fc4chu_d7b7594e-cd78-41b5-acb8-ef9a949541e5.png"
-          alt="Системный апгрейд"
-          className="w-full h-auto object-cover"
-        />
-      </section>
-
       {/* All-In-One Method Section */}
       <section className="py-24 bg-gradient-to-b from-black to-gray-950">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
