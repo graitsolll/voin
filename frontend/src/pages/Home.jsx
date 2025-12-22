@@ -184,19 +184,19 @@ const Home = () => {
           </div>
 
           <div className="text-center mb-12">
-            <h3 className="text-3xl sm:text-4xl font-bold text-orange-500 uppercase">Ты чувствуешь:</h3>
+            <h3 className="text-3xl sm:text-4xl font-bold text-orange-500 uppercase">Ты узнаешь:</h3>
           </div>
 
           <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
             <Card className="bg-gradient-to-br from-gray-900 to-gray-950 border-2 border-orange-500/30 rounded-2xl p-8 hover:border-orange-500/60 transition-all duration-300 transform hover:scale-105">
               <div className="flex items-start space-x-6">
                 <div className="flex-shrink-0 w-16 h-16 bg-orange-500/20 rounded-xl flex items-center justify-center">
-                  <div className="text-orange-500 text-3xl font-bold">⚡</div>
+                  <div className="text-orange-500 text-3xl font-bold">01</div>
                 </div>
                 <div>
-                  <h4 className="text-2xl font-bold mb-4 text-white">Стеклянный потолок</h4>
+                  <h4 className="text-2xl font-bold mb-4 text-white">Снять маску</h4>
                   <p className="text-gray-300 text-lg leading-relaxed">
-                    Ты уперся в доход, который не растет, сколько бы ты ни пахал.
+                    Перестать тратить 90% энергии на то, чтобы казаться успешным и сильным, и наконец-то стать им по-настоящему (Аутентичность).
                   </p>
                 </div>
               </div>
@@ -205,12 +205,40 @@ const Home = () => {
             <Card className="bg-gradient-to-br from-gray-900 to-gray-950 border-2 border-orange-500/30 rounded-2xl p-8 hover:border-orange-500/60 transition-all duration-300 transform hover:scale-105">
               <div className="flex items-start space-x-6">
                 <div className="flex-shrink-0 w-16 h-16 bg-orange-500/20 rounded-xl flex items-center justify-center">
-                  <div className="text-orange-500 text-3xl font-bold">📱</div>
+                  <div className="text-orange-500 text-3xl font-bold">02</div>
                 </div>
                 <div>
-                  <h4 className="text-2xl font-bold mb-4 text-white">Эмоциональное дно</h4>
+                  <h4 className="text-2xl font-bold mb-4 text-white">Разблокировать деньги</h4>
                   <p className="text-gray-300 text-lg leading-relaxed">
-                    Утром ты просыпаешься уже уставшим. Дорога, которую было 20 лет, исчез.
+                    Понять, почему ты уперся в финансовый потолок, и как твои отношения с Отцом держат твой банковский счет на одном уровне годами.
+                  </p>
+                </div>
+              </div>
+            </Card>
+
+            <Card className="bg-gradient-to-br from-gray-900 to-gray-950 border-2 border-orange-500/30 rounded-2xl p-8 hover:border-orange-500/60 transition-all duration-300 transform hover:scale-105">
+              <div className="flex items-start space-x-6">
+                <div className="flex-shrink-0 w-16 h-16 bg-orange-500/20 rounded-xl flex items-center justify-center">
+                  <div className="text-orange-500 text-3xl font-bold">03</div>
+                </div>
+                <div>
+                  <h4 className="text-2xl font-bold mb-4 text-white">Вернуть вкус к жизни</h4>
+                  <p className="text-gray-300 text-lg leading-relaxed">
+                    Превратить хроническую усталость и «день сурка» в управляемый поток энергии и драйва (Состояние).
+                  </p>
+                </div>
+              </div>
+            </Card>
+
+            <Card className="bg-gradient-to-br from-gray-900 to-gray-950 border-2 border-orange-500/30 rounded-2xl p-8 hover:border-orange-500/60 transition-all duration-300 transform hover:scale-105">
+              <div className="flex items-start space-x-6">
+                <div className="flex-shrink-0 w-16 h-16 bg-orange-500/20 rounded-xl flex items-center justify-center">
+                  <div className="text-orange-500 text-3xl font-bold">04</div>
+                </div>
+                <div>
+                  <h4 className="text-2xl font-bold mb-4 text-white">Перестать быть винтиком</h4>
+                  <p className="text-gray-300 text-lg leading-relaxed">
+                    Научиться видеть, как работают Большие Системы, и стать Архитектором своей реальности, а не её заложником.
                   </p>
                 </div>
               </div>
