@@ -84,24 +84,10 @@ const Home = () => {
         }`}
       >
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-20">
-            <div className="text-2xl sm:text-3xl font-bold tracking-wider text-orange-500">
-              СТАНЬ ВОИНОМ
-            </div>
-            <nav className="hidden md:flex items-center space-x-8">
-              <a href="#about" className="text-white hover:text-orange-500 transition-colors">
-                Я
-              </a>
-              <a href="#program" className="text-white hover:text-orange-500 transition-colors">
-                Программа
-              </a>
-              <a href="#results" className="text-white hover:text-orange-500 transition-colors">
-                Тарифы
-              </a>
-              <Button className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-2 rounded-lg transition-all duration-300 transform hover:scale-105">
-                Записаться
-              </Button>
-            </nav>
+          <div className="flex items-center justify-center h-20">
+            <p className="text-base sm:text-lg md:text-xl text-white text-center">
+              Если хочешь стать сильным, внимательно прочитай эту статью...
+            </p>
           </div>
         </div>
       </header>
