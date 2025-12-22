@@ -162,8 +162,38 @@ const Home = () => {
         </div>
       </section>
 
+      {/* Warning Section */}
+      <section className="py-16 bg-gradient-to-b from-black to-gray-900">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-5xl mx-auto">
+            <div className="bg-gradient-to-r from-red-900/30 to-gray-900/30 border-2 border-red-600/50 rounded-2xl p-8 sm:p-12">
+              <h3 className="text-3xl sm:text-4xl font-bold text-red-500 mb-6 uppercase">
+                Брат, закрой эту страницу прямо сейчас, если ты:
+              </h3>
+              <div className="space-y-4 text-lg text-gray-300">
+                <p className="flex items-start space-x-3">
+                  <span className="text-red-500 mt-1">•</span>
+                  <span>Ищешь «волшебную таблетку» или быстрый способ срубить денег, не меняя мышления.</span>
+                </p>
+                <p className="flex items-start space-x-3">
+                  <span className="text-red-500 mt-1">•</span>
+                  <span>Считаешь, что психология — это «для нытиков», а настоящий мужик должен стиснуть зубы и молча выгорать.</span>
+                </p>
+                <p className="flex items-start space-x-3">
+                  <span className="text-red-500 mt-1">•</span>
+                  <span>Привык обвинять в своих проблемах жену, государство, кризис или родителей, и не готов брать ответственность за свою жизнь.</span>
+                </p>
+              </div>
+              <p className="text-xl font-bold text-white mt-8">
+                Если ты здесь, чтобы найти очередное оправдание, — нам не по пути. Этот текст для тех, кто готов смотреть правде в глаза.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Problem Section */}
-      <section className="py-24 bg-gradient-to-b from-black to-gray-950">
+      <section className="py-24 bg-gradient-to-b from-gray-900 to-gray-950">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-8 mb-16">
             <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold uppercase leading-tight">
