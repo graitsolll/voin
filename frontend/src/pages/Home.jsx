@@ -123,22 +123,6 @@ const Home = () => {
                   Единая система, которая соединяет Психологию, Деньги и Отношения в единый механизм.
                 </p>
               </div>
-
-              <div className="space-y-4">
-                {benefits.map((benefit, index) => (
-                  <div key={index} className="flex items-start space-x-4">
-                    <div className="flex-shrink-0 w-8 h-8 bg-orange-500 rounded-full flex items-center justify-center mt-1">
-                      <Check className="w-5 h-5 text-white" />
-                    </div>
-                    <p className="text-lg text-gray-200">{benefit}</p>
-                  </div>
-                ))}
-              </div>
-
-              <Button className="bg-orange-500 hover:bg-orange-600 text-white text-lg px-12 py-6 rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-xl hover:shadow-orange-500/50">
-                НАЧАТЬ ТРАНСФОРМАЦИЮ
-                <ArrowRight className="ml-2 w-5 h-5" />
-              </Button>
             </div>
           </div>
         </div>
