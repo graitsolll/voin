@@ -110,8 +110,8 @@ const Home = () => {
             <div className="space-y-8">
               <div className="space-y-6">
                 <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold leading-tight uppercase">
-                  СИСТЕМНЫЙ КОД<br />
-                  <span className="text-orange-500">МУЖЧИНЫ</span>
+                  ПРОСНИСЬ<br />
+                  <span className="text-orange-500">ВОИНОМ</span>
                 </h1>
                 <p className="text-xl sm:text-2xl text-gray-300 leading-relaxed max-w-3xl">
                   Почему твой внешний успех больше не радует, и как собрать себя заново, чтобы жить, а не «терпеть»
