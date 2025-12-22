@@ -244,14 +244,6 @@ const Home = () => {
               </div>
             </Card>
           </div>
-
-          <div className="mt-16 text-center">
-            <div className="inline-block bg-orange-500/10 border border-orange-500/30 rounded-2xl p-8 max-w-4xl">
-              <p className="text-xl sm:text-2xl text-gray-200 leading-relaxed">
-                Открой путь, который избавит тебя от «дня сурка» — и даст кратчайший рост личных сил, дохода и прибыли за 6 недель.
-              </p>
-            </div>
-          </div>
         </div>
       </section>
 
