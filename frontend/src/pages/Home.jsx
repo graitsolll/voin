@@ -176,8 +176,7 @@ const Home = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-8 mb-16">
             <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold uppercase leading-tight">
-              ЕСЛИ ТЫ ЗДЕСЬ, ЗНАЧИТ ТВОЯ СТАРАЯ<br />
-              <span className="text-orange-500">СИСТЕМА ДАЛА СБОЙ</span>
+              ИЗ ЭТОЙ СТАТЬИ ТЫ УЗНАЕШЬ, <span className="text-orange-500">КАК:</span>
             </h2>
             <p className="text-xl sm:text-2xl text-gray-300 max-w-4xl mx-auto">
               Ты можешь добиться успеха в бизнесе, но несчастным дома. Или быть альтернативным семейным человеком, но считать копейки.
