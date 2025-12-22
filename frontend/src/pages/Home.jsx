@@ -108,29 +108,31 @@ const Home = () => {
 
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center pt-20">
-        <div className="absolute inset-0 z-0">
-          <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black z-10"></div>
-          <img
-            src="https://customer-assets.emergentagent.com/job_15f1dff2-2edb-4e36-86c1-a075e381612e/artifacts/a6e5nyf1_image.png"
-            alt="Hero"
-            className="w-full h-full object-cover"
-          />
+        <div className="absolute inset-0 z-0 bg-black">
+          <div className="absolute inset-0 bg-gradient-to-r from-black via-black/80 to-transparent z-10"></div>
+          <div className="absolute right-0 top-0 bottom-0 w-1/2 opacity-60">
+            <img
+              src="https://customer-assets.emergentagent.com/job_15f1dff2-2edb-4e36-86c1-a075e381612e/artifacts/a6e5nyf1_image.png"
+              alt="Hero"
+              className="w-full h-full object-cover"
+            />
+          </div>
         </div>
 
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-20">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
+          <div className="max-w-4xl">
             <div className="space-y-8">
               <div className="space-y-6">
                 <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold leading-tight uppercase">
                   СИСТЕМНЫЙ КОД<br />
                   <span className="text-orange-500">МУЖЧИНЫ</span>
                 </h1>
-                <p className="text-xl sm:text-2xl text-gray-300 leading-relaxed">
+                <p className="text-xl sm:text-2xl text-gray-300 leading-relaxed max-w-3xl">
                   Почему твой внешний успех больше не радует, и как собрать себя заново, чтобы жить, а не «терпеть»
                 </p>
               </div>
 
-              <div className="bg-gray-900/50 backdrop-blur-sm border border-orange-500/30 rounded-lg p-8">
+              <div className="bg-gray-900/70 backdrop-blur-sm border border-orange-500/30 rounded-lg p-8">
                 <p className="text-lg sm:text-xl text-gray-200 leading-relaxed">
                   Единая система, которая соединяет Психологию, Деньги и Отношения в единый механизм.
                 </p>
