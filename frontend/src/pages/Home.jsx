@@ -132,6 +132,15 @@ const Home = () => {
         </div>
       </section>
 
+      {/* Full Width Image Section */}
+      <section className="w-full">
+        <img
+          src="https://customer-assets.emergentagent.com/job_system-rebuild/artifacts/zprtzobx_90453c2d-5da0-44ac-98fb-b5e8ffb2bba8.png"
+          alt="Warrior"
+          className="w-full h-auto object-cover"
+        />
+      </section>
+
       {/* Warning Section */}
       <section className="py-16 bg-gradient-to-b from-black to-gray-900">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
