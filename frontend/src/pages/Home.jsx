@@ -98,7 +98,7 @@ const Home = () => {
           <div className="absolute inset-0 bg-gradient-to-r from-black via-black/80 to-transparent z-10"></div>
           <div className="absolute right-0 top-0 bottom-0 w-1/2 opacity-60">
             <img
-              src="https://customer-assets.emergentagent.com/job_15f1dff2-2edb-4e36-86c1-a075e381612e/artifacts/a6e5nyf1_image.png"
+              src="https://customer-assets.emergentagent.com/job_system-rebuild/artifacts/exfqlu52_bcaeab5f-914b-4e57-830b-9db64e87e6eb.png"
               alt="Hero"
               className="w-full h-full object-cover"
             />
