@@ -302,6 +302,84 @@ const Home = () => {
         </div>
       </section>
 
+      {/* What You Get Section */}
+      <section className="py-24 bg-gradient-to-b from-black to-gray-950">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-6xl mx-auto">
+            <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-center mb-16 uppercase">
+              ЧТО КОНКРЕТНО ДАСТ ТЕБЕ<br />
+              <span className="text-orange-500">МОЯ СИСТЕМА?</span>
+            </h2>
+
+            <p className="text-xl sm:text-2xl text-gray-300 text-center mb-16 max-w-4xl mx-auto">
+              Я не буду учить тебя «успешному успеху». Мы займемся капитальным ремонтом твоей жизни через 9 ключевых рычагов:
+            </p>
+
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {[
+                {
+                  number: '01',
+                  title: 'Железобетонная Аутентичность',
+                  description: 'Ты перестанешь врать себе. Ты скинешь груз чужих ожиданий. Знаешь, сколько энергии освободится? Достаточно, чтобы удвоить доход без надрыва.'
+                },
+                {
+                  number: '02',
+                  title: 'Деньги через Психологию',
+                  description: 'Мы найдем твой «денежный тромб». Часто он прячется не в рынке, а в твоих убеждениях и лояльности к бедности рода. Мы это вырежем.'
+                },
+                {
+                  number: '03',
+                  title: 'Отношения-Тыл',
+                  description: 'Твой дом станет местом силы. Мы уберем сценарии, где ты «мальчик» или «тиран», и вернем тебе роль Мужчины, которого уважают и любят.'
+                },
+                {
+                  number: '04',
+                  title: 'Состояние Воина',
+                  description: 'Ты научишься управлять своей батарейкой. Стресс перестанет тебя разрушать, он станет топливом. Ты забудешь, что такое апатия.'
+                },
+                {
+                  number: '05',
+                  title: 'Сепарация (Мама/Папа)',
+                  description: 'Это больно, но необходимо. Мы разорвем пуповину зависимостей. Только взрослый мужчина может владеть большими ресурсами.'
+                },
+                {
+                  number: '06',
+                  title: 'Стратегия Жизни',
+                  description: 'Ты перестанешь дрейфовать. У тебя появится четкий план и понимание: КУДА я иду и ЗАЧЕМ мне это надо.'
+                },
+                {
+                  number: '07',
+                  title: 'Окружение',
+                  description: 'Ты увидишь, кто тянет тебя на дно. И у тебя появится сила сформировать стаю, с которой ты пойдешь на вершину.'
+                }
+              ].map((item, index) => (
+                <Card
+                  key={index}
+                  className="bg-gray-900 border border-orange-500/30 rounded-xl p-6 hover:border-orange-500/60 transition-all duration-300 transform hover:scale-105"
+                >
+                  <div className="space-y-4">
+                    <div className="text-5xl font-bold text-orange-500/30">{item.number}</div>
+                    <h3 className="text-xl font-bold text-white">{item.title}</h3>
+                    <p className="text-gray-300 leading-relaxed">{item.description}</p>
+                  </div>
+                </Card>
+              ))}
+            </div>
+
+            <div className="mt-16 text-center">
+              <div className="inline-block bg-orange-500/10 border-2 border-orange-500 rounded-2xl p-8 max-w-4xl">
+                <p className="text-2xl sm:text-3xl font-bold text-orange-500 mb-4">
+                  Это работает. Проверено практикой.
+                </p>
+                <p className="text-xl text-gray-300">
+                  Это не теория из книжек. Это путь, который прошел я и десятки моих учеников — предпринимателей, управленцев, отцов.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Program Section */}
       <section id="program" className="py-24 bg-gradient-to-b from-black to-gray-950">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
