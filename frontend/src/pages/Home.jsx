@@ -336,7 +336,7 @@ const Home = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-5xl mx-auto">
             <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-center mb-16 uppercase">
-              ЕСЛИ ТЫ СЕЙЧАС <span className="text-orange-500">КИВАЕШЬ</span>,<br />
+              ТЫ СЕЙЧАС <span className="text-orange-500">КИВАЕШЬ</span>,<br />
               ЧИТАЯ ЭТО...
             </h2>
 
