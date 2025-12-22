@@ -265,20 +265,54 @@ const Home = () => {
 
               <div className="space-y-6">
                 <h3 className="text-3xl font-bold text-orange-500">Рустам Кадыров</h3>
+                <p className="text-2xl font-bold text-white">
+                  Послушай мою историю.
+                </p>
                 <p className="text-xl text-gray-300 leading-relaxed">
-                  Давай начистоту. Я знаю, что ты чувствуешь, потому что я сам был там.
+                  Давай начистоту. Я, Рустам Кадыров, знаю, что ты чувствуешь, потому что я сам был там.
                 </p>
                 <p className="text-lg text-gray-300 leading-relaxed">
                   Внешне моя жизнь выглядела как картинка из журнала «Успех». Бизнес, статус, деньги, семья. Люди смотрели на меня и говорили: «Красавчик, у него всё есть».
                 </p>
-                <p className="text-lg text-gray-300 leading-relaxed">
-                  <span className="text-orange-500 font-bold">Но внутри я жил в аду.</span>
+                <p className="text-2xl font-bold text-orange-500">
+                  Но внутри я жил в аду.
                 </p>
-                <div className="bg-gray-900/50 border border-orange-500/30 rounded-xl p-6 space-y-4">
-                  <p className="text-gray-300">• Я был эффективным, но пустым</p>
-                  <p className="text-gray-300">• Я работал по 14 часов, но тревога не проходила</p>
-                  <p className="text-gray-300">• Я чувствовал себя самозванцем в собственной жизни</p>
+              </div>
+            </div>
+
+            <div className="space-y-8 mb-16">
+              <p className="text-xl text-gray-300 leading-relaxed">
+                Каждое утро я просыпался с тяжестью в груди, будто плита давит. Я шел в мир воевать, зарабатывать, доказывать. А вечером не хотел возвращаться домой, потому что там меня ждали не покой и тыл, а новые требования и претензии. Или, что еще хуже, — холодное молчание.
+              </p>
+
+              <div className="bg-gray-900/50 border-2 border-orange-500/30 rounded-2xl p-8">
+                <p className="text-2xl font-bold text-white mb-6">
+                  Я был эффективным, но пустым.
+                </p>
+                <div className="space-y-4">
+                  <p className="text-lg text-gray-300 flex items-start">
+                    <span className="text-orange-500 mr-3 mt-1">•</span>
+                    <span>Я покупал дорогие вещи, но радость от них длилась ровно 15 минут.</span>
+                  </p>
+                  <p className="text-lg text-gray-300 flex items-start">
+                    <span className="text-orange-500 mr-3 mt-1">•</span>
+                    <span>Я работал по 14 часов, но чувство тревоги, что «я что-то упускаю», не проходило.</span>
+                  </p>
+                  <p className="text-lg text-gray-300 flex items-start">
+                    <span className="text-orange-500 mr-3 mt-1">•</span>
+                    <span>Я чувствовал себя самозванцем в собственной жизни.</span>
+                  </p>
                 </div>
+              </div>
+
+              <p className="text-xl text-gray-300 leading-relaxed">
+                Я пробовал всё: бизнес-тренинги, спорт, жесткую дисциплину. Я думал: «Надо просто поднажать». Но чем сильнее я жал на газ, тем быстрее ломался мой двигатель. Я уперся в стену.
+              </p>
+
+              <div className="text-center">
+                <p className="text-3xl sm:text-4xl font-bold text-orange-500">
+                  И теперь я точно знаю, как это изменить.
+                </p>
               </div>
             </div>
 
@@ -289,7 +323,7 @@ const Home = () => {
               <p className="text-xl text-gray-300 leading-relaxed">
                 Нельзя построить небоскреб на гнилом фундаменте. Моя проблема была не в инструментах бизнеса, а в моей «прошивке». Я разобрал себя на детали и собрал заново.
               </p>
-              <p className="text-2xl font-bold text-orange-500 mt-6">
+              <p className="text-3xl font-bold text-orange-500 mt-6">
                 Так родилась Система.
               </p>
             </div>
