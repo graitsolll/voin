@@ -745,10 +745,15 @@ const Home = () => {
               </p>
             </div>
 
-            <Button className="bg-orange-500 hover:bg-orange-600 text-white text-xl px-16 py-8 rounded-xl transition-all duration-300 transform hover:scale-110 hover:shadow-2xl hover:shadow-orange-500/50">
+            <a 
+              href="https://icds-group.com/lp/warrior/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="inline-flex items-center bg-orange-500 hover:bg-orange-600 text-white text-xl px-16 py-8 rounded-xl transition-all duration-300 transform hover:scale-110 hover:shadow-2xl hover:shadow-orange-500/50 font-bold uppercase tracking-wider"
+            >
               ХОЧУ УЗНАТЬ ПОДРОБНЕЕ
               <ArrowRight className="ml-3 w-6 h-6" />
-            </Button>
+            </a>
           </div>
         </div>
       </section>
